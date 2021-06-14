@@ -1,0 +1,18 @@
+.page {
+    background: url(../assets/images/yvette-de-wit-NYrVisodQ2M-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.keys {
+    border: 1px solid red;
+    display: flex;
+    width: 75%;
+    height: 99vh;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
