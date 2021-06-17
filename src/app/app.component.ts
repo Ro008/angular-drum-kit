@@ -24,6 +24,7 @@ export class AppComponent {
             if(key.getAttribute('data-keyCode') === event.code) {
                 key.classList.add('playing');
                 
+                // remove the animation when the key finishes transitioning from one CSS class to two (key + playing)
                 key.addEventListener('transitionend', () => {
                     key.classList.remove('playing')
                 })
