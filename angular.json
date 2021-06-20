@@ -121,13 +121,8 @@
               "devServerTarget": "angular-drum-kit:serve:production"
             }
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {}
         }
       }
-    }
-  },
+    }},
   "defaultProject": "angular-drum-kit"
 }
